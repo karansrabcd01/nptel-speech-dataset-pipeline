@@ -45,7 +45,7 @@ This project implements a complete data engineering pipeline that:
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/karansrabcd01/nptel-speech-dataset-pipeline.git
    cd Project_IIT_Madras
    ```
 
