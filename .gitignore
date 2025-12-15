@@ -1,0 +1,99 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data directories (large files - exclude intermediate processing)
+data/raw_audios/
+data/processed_audios/
+data/transcripts_pdf/
+
+# Keep final audios for submission (first 5 files)
+!data/final_audios/0DKOUFrP7xI.wav
+!data/final_audios/4TC5s_xNKSs.wav
+!data/final_audios/6USgwLa-7ks.wav
+!data/final_audios/DpK_i6iA0i0.wav
+!data/final_audios/WpR8eOLUo9Q.wav
+
+# Keep directory structure but ignore contents
+!data/.gitkeep
+!data/raw_audios/.gitkeep
+!data/processed_audios/.gitkeep
+!data/final_audios/.gitkeep
+!data/transcripts_pdf/.gitkeep
+!data/transcripts_txt/.gitkeep
+
+# Output files - KEEP train_manifest.jsonl for submission
+# output/*.jsonl
+# output/*.json
+
+# IMPORTANT: Include train_manifest.jsonl for submission
+!output/train_manifest.jsonl
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Cookies and credentials
+cookies.txt
+*.cookie
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Audio/Video files (if accidentally placed in root)
+/*.wav
+/*.mp3
+/*.mp4
+/*.avi
+
+# PDF files (if accidentally placed in root)
+/*.pdf

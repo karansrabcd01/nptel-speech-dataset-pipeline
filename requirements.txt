@@ -1,0 +1,27 @@
+# Core Dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Audio Processing
+yt-dlp>=2024.12.0
+librosa>=0.10.0
+soundfile>=0.12.0
+pydub>=0.25.0
+
+# Text Processing
+PyPDF2>=3.0.0
+num2words>=0.5.12
+pypdf>=3.17.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Dashboard
+dash>=2.14.0
+plotly>=5.18.0
+dash-bootstrap-components>=1.5.0
+
+# Utilities
+tqdm>=4.66.0
+python-dotenv>=1.0.0

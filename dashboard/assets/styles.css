@@ -1,0 +1,141 @@
+/* Custom Dashboard Styles */
+
+body {
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+    min-height: 100vh;
+}
+
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 212, 255, 0.3);
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #b0b0b0;
+}
+
+.card h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 800;
+    background: linear-gradient(135deg, #00d4ff 0%, #00ff88 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+h3 {
+    color: #00d4ff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.table-dark {
+    background: rgba(15, 20, 35, 0.95);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 212, 255, 0.3);
+}
+
+.table-dark th {
+    background: rgba(0, 100, 150, 0.8);
+    color: #00ffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px;
+    font-size: 0.95rem;
+}
+
+.table-dark td {
+    color: #ffffff;
+    background: rgba(30, 35, 50, 0.7);
+    padding: 12px 15px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.table-dark td:first-child {
+    color: #00d4ff;
+    font-weight: 600;
+}
+
+.table-dark tbody tr {
+    border-bottom: 1px solid rgba(0, 212, 255, 0.1);
+}
+
+.table-dark tbody tr:hover {
+    background: rgba(0, 212, 255, 0.15);
+}
+
+.table-dark tbody tr:hover td {
+    background: rgba(0, 100, 150, 0.3);
+    color: #ffffff;
+}
+
+/* Override Bootstrap striped table */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(30, 35, 50, 0.7) !important;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(30, 35, 50, 0.7) !important;
+}
+
+/* Force all table rows to have same background */
+.table-dark tbody tr td {
+    background-color: rgba(30, 35, 50, 0.7) !important;
+}
+
+/* Ensure text is always white */
+.table-dark tbody tr td:last-child {
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+hr {
+    border-top: 2px solid rgba(0, 212, 255, 0.3);
+    margin: 2rem 0;
+}
+
+/* Graph containers */
+.js-plotly-plot {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #00d4ff 0%, #00ff88 100%);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #00ff88 0%, #00d4ff 100%);
+}
